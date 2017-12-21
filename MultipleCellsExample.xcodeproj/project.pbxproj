@@ -13,6 +13,19 @@
 		2C826EE01FEC2D7800D9E6D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C826EDF1FEC2D7800D9E6D7 /* Assets.xcassets */; };
 		2C826EE31FEC2D7800D9E6D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C826EE11FEC2D7800D9E6D7 /* LaunchScreen.storyboard */; };
 		2C826EEE1FEC2D7800D9E6D7 /* MultipleCellsExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C826EED1FEC2D7800D9E6D7 /* MultipleCellsExampleTests.swift */; };
+		2CCAD1A71FEC3139004C0046 /* ServerData.json in Resources */ = {isa = PBXBuildFile; fileRef = 2CCAD1A61FEC3138004C0046 /* ServerData.json */; };
+		2CCAD1A91FEC3168004C0046 /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCAD1A81FEC3168004C0046 /* ProfileModel.swift */; };
+		2CCAD1AB1FEC33BD004C0046 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCAD1AA1FEC33BD004C0046 /* ProfileViewModel.swift */; };
+		2CCAD1B91FEC3887004C0046 /* EmailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CCAD1AF1FEC3886004C0046 /* EmailCell.xib */; };
+		2CCAD1BA1FEC3887004C0046 /* AboutCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CCAD1B01FEC3886004C0046 /* AboutCell.xib */; };
+		2CCAD1BB1FEC3887004C0046 /* AboutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCAD1B11FEC3886004C0046 /* AboutCell.swift */; };
+		2CCAD1BC1FEC3887004C0046 /* NamePictureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCAD1B21FEC3886004C0046 /* NamePictureCell.swift */; };
+		2CCAD1BD1FEC3887004C0046 /* FriendCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CCAD1B31FEC3886004C0046 /* FriendCell.xib */; };
+		2CCAD1BE1FEC3887004C0046 /* NamePictureCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CCAD1B41FEC3886004C0046 /* NamePictureCell.xib */; };
+		2CCAD1BF1FEC3887004C0046 /* FriendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCAD1B51FEC3887004C0046 /* FriendCell.swift */; };
+		2CCAD1C01FEC3887004C0046 /* AttributeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCAD1B61FEC3887004C0046 /* AttributeCell.swift */; };
+		2CCAD1C11FEC3887004C0046 /* AttributeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CCAD1B71FEC3887004C0046 /* AttributeCell.xib */; };
+		2CCAD1C21FEC3887004C0046 /* EmailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCAD1B81FEC3887004C0046 /* EmailCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +49,19 @@
 		2C826EE91FEC2D7800D9E6D7 /* MultipleCellsExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultipleCellsExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C826EED1FEC2D7800D9E6D7 /* MultipleCellsExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleCellsExampleTests.swift; sourceTree = "<group>"; };
 		2C826EEF1FEC2D7800D9E6D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CCAD1A61FEC3138004C0046 /* ServerData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ServerData.json; path = ../../../../../Downloads/ServerData.json; sourceTree = "<group>"; };
+		2CCAD1A81FEC3168004C0046 /* ProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
+		2CCAD1AA1FEC33BD004C0046 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		2CCAD1AF1FEC3886004C0046 /* EmailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmailCell.xib; sourceTree = "<group>"; };
+		2CCAD1B01FEC3886004C0046 /* AboutCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutCell.xib; sourceTree = "<group>"; };
+		2CCAD1B11FEC3886004C0046 /* AboutCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutCell.swift; sourceTree = "<group>"; };
+		2CCAD1B21FEC3886004C0046 /* NamePictureCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NamePictureCell.swift; sourceTree = "<group>"; };
+		2CCAD1B31FEC3886004C0046 /* FriendCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FriendCell.xib; sourceTree = "<group>"; };
+		2CCAD1B41FEC3886004C0046 /* NamePictureCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NamePictureCell.xib; sourceTree = "<group>"; };
+		2CCAD1B51FEC3887004C0046 /* FriendCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendCell.swift; sourceTree = "<group>"; };
+		2CCAD1B61FEC3887004C0046 /* AttributeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttributeCell.swift; sourceTree = "<group>"; };
+		2CCAD1B71FEC3887004C0046 /* AttributeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AttributeCell.xib; sourceTree = "<group>"; };
+		2CCAD1B81FEC3887004C0046 /* EmailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +103,16 @@
 		2C826ED71FEC2D7800D9E6D7 /* MultipleCellsExample */ = {
 			isa = PBXGroup;
 			children = (
+				2CCAD1AE1FEC387E004C0046 /* Cells */,
 				2C826ED81FEC2D7800D9E6D7 /* AppDelegate.swift */,
 				2C826EDA1FEC2D7800D9E6D7 /* ViewController.swift */,
 				2C826EDC1FEC2D7800D9E6D7 /* Main.storyboard */,
 				2C826EDF1FEC2D7800D9E6D7 /* Assets.xcassets */,
 				2C826EE11FEC2D7800D9E6D7 /* LaunchScreen.storyboard */,
 				2C826EE41FEC2D7800D9E6D7 /* Info.plist */,
+				2CCAD1A61FEC3138004C0046 /* ServerData.json */,
+				2CCAD1A81FEC3168004C0046 /* ProfileModel.swift */,
+				2CCAD1AA1FEC33BD004C0046 /* ProfileViewModel.swift */,
 			);
 			path = MultipleCellsExample;
 			sourceTree = "<group>";
@@ -94,6 +124,23 @@
 				2C826EEF1FEC2D7800D9E6D7 /* Info.plist */,
 			);
 			path = MultipleCellsExampleTests;
+			sourceTree = "<group>";
+		};
+		2CCAD1AE1FEC387E004C0046 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2CCAD1B21FEC3886004C0046 /* NamePictureCell.swift */,
+				2CCAD1B41FEC3886004C0046 /* NamePictureCell.xib */,
+				2CCAD1B11FEC3886004C0046 /* AboutCell.swift */,
+				2CCAD1B01FEC3886004C0046 /* AboutCell.xib */,
+				2CCAD1B51FEC3887004C0046 /* FriendCell.swift */,
+				2CCAD1B31FEC3886004C0046 /* FriendCell.xib */,
+				2CCAD1B61FEC3887004C0046 /* AttributeCell.swift */,
+				2CCAD1B71FEC3887004C0046 /* AttributeCell.xib */,
+				2CCAD1B81FEC3887004C0046 /* EmailCell.swift */,
+				2CCAD1AF1FEC3886004C0046 /* EmailCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,9 +226,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CCAD1A71FEC3139004C0046 /* ServerData.json in Resources */,
+				2CCAD1BE1FEC3887004C0046 /* NamePictureCell.xib in Resources */,
+				2CCAD1B91FEC3887004C0046 /* EmailCell.xib in Resources */,
 				2C826EE31FEC2D7800D9E6D7 /* LaunchScreen.storyboard in Resources */,
+				2CCAD1BD1FEC3887004C0046 /* FriendCell.xib in Resources */,
+				2CCAD1BA1FEC3887004C0046 /* AboutCell.xib in Resources */,
 				2C826EE01FEC2D7800D9E6D7 /* Assets.xcassets in Resources */,
 				2C826EDE1FEC2D7800D9E6D7 /* Main.storyboard in Resources */,
+				2CCAD1C11FEC3887004C0046 /* AttributeCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,8 +252,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CCAD1BF1FEC3887004C0046 /* FriendCell.swift in Sources */,
+				2CCAD1A91FEC3168004C0046 /* ProfileModel.swift in Sources */,
+				2CCAD1C01FEC3887004C0046 /* AttributeCell.swift in Sources */,
 				2C826EDB1FEC2D7800D9E6D7 /* ViewController.swift in Sources */,
+				2CCAD1BB1FEC3887004C0046 /* AboutCell.swift in Sources */,
+				2CCAD1AB1FEC33BD004C0046 /* ProfileViewModel.swift in Sources */,
 				2C826ED91FEC2D7800D9E6D7 /* AppDelegate.swift in Sources */,
+				2CCAD1C21FEC3887004C0046 /* EmailCell.swift in Sources */,
+				2CCAD1BC1FEC3887004C0046 /* NamePictureCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
